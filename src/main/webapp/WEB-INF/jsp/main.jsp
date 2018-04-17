@@ -8,6 +8,6 @@
     <hr/>
         ${user}, hello!
     <hr/>
-    <a href=""/>
+    <a href="controller?command=Logout">Logout</a>
 </body>
 </html>

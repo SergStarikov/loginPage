@@ -7,7 +7,7 @@
     <form name="LoginForm" method="post" action="controller">
         <input type="hidden" name="commond" value="Login"/>
         Login: <br/>
-        <input type="text" name="Login" value=""/>
+        <input type="text" name="login" value=""/>
         <br/>Password:<br/>
         <input type="password" name="password" value="">
         <br/>

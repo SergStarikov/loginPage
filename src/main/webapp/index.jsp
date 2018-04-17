@@ -2,9 +2,7 @@
 
 <html>
 <head>
-    <title>
-        Index
-    </title>
+    <title>Index</title>
 </head>
 <body>
 <jsp:forward page="/webapp/WEB-INF/jsp/Login.jsp"/>

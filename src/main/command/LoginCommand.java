@@ -15,7 +15,7 @@ public class LoginCommand implements ActionCommand {
         String page = null;
         String login = request.getParameter(PARAM_NAME_LOGIN);
         String pass = request.getParameter(PARAM_NAME_PASSWORD);
-        if (LoginLogic.cheakLogin(login, pass)){
+        if (LoginLogic.checkLogin(login, pass)){
             request.setAttribute("user", login);
             page = ConfigurationManager.getProperty("path.page.main");
         }else{
